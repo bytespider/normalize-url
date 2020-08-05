@@ -1,0 +1,22 @@
+{
+  "name": "@acemedia/normalize-url",
+  "version": "1.0.0",
+  "description": "Normalize urls for duplicate matching, caching, etc according to this methodology https://developers.google.com/safe-browsing/v4/urls-hashing",
+  "keywords": ["normalize", "canonicalize", "normalise", "canonicalise", "url", "canonical"],
+  "main": "src/normalize-url.js",
+  "scripts": {
+    "test": "mocha --inline-diffs"
+  },
+  "author": "Rob Griffiths <rob@ace.media>",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.1.0"
+  },
+  "dependencies": {
+    "url-parse": "^1.4.7"
+  },
+  "engines": {
+    "node": ">=10"
+  }
+}
